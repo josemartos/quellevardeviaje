@@ -1,0 +1,29 @@
+{
+  "extends": ["eslint:recommended", "plugin:vue/recommended"],
+  "rules": {
+    "no-console": 0,
+    "vue/html-indent": [2, 2],
+    "vue/max-attributes-per-line": 0,
+    "vue/html-self-closing": [
+      "error",
+      {
+        "html": {
+          "normal": "never",
+          "void": "always"
+        }
+      }
+    ],
+    "vue/singleline-html-element-content-newline": 0
+  },
+  "plugins": ["vue"],
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  }
+}

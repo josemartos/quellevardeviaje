@@ -1,0 +1,39 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    color: $font-primary;
+    font-family: $font-base;
+    background-color: $c-white;
+    font-size: $font-base-size;
+}
+
+a {
+    color: $font-link;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+
+    &:hover {
+        color: darken($font-link, 10%);
+    }
+}
+
+.page-container {
+    max-width: $m-desktop;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-content {
+    flex: 1 0 auto;
+}
