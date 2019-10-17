@@ -7,7 +7,9 @@ const plugins = require('./webpack.plugins');
 const commonConfig = merge([
   {
     output: {
-      filename: '[name].[chunkhash].js'
+      filename: '[name].[chunkhash].js',
+      // Relative to the root, for the subfolders
+      publicPath: '/'
     },
     module: {
       rules: [
