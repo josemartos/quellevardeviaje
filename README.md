@@ -4,7 +4,7 @@
 
 ## Description
 
-A prerendered blog-article-like Vue.js website. See [live](https://www.quellevardeviaje.com)
+A prerendered blog-article-like Vue.js website.
 
 ## Setup
 
